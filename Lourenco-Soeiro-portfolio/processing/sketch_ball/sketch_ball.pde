@@ -45,7 +45,7 @@ void drawSpring() {
   if(over || move) { 
     fill(200,67,0);
   } else { 
-    fill(200,67,0);
+    fill(444,67,0);
   }
   rect(left, ps, right, ps + springHeight); 
   ellipse (left, ps, right, ps + springHeight); 
